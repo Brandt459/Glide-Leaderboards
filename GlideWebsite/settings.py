@@ -29,7 +29,7 @@ SECRET_KEY = 'xfbh92ew3b__8g_1g+2i=)jz#i=n1ss+k#&*rvj(*y$#35_wgp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['glidedb.herokuapp.com']
+ALLOWED_HOSTS = ['glidedb.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -66,7 +66,7 @@ ROOT_URLCONF = 'GlideWebsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,9 +75,6 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-            'libraries':{
-                'index': 'templatetags.index',
-            }
         },
     },
 ]
@@ -137,14 +134,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, 'build/static'),
 ]
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://glidedb.herokuapp.com'
 ]
 
 django_heroku.settings(locals())

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f81de29e.chunk.css",
+    "main.js": "/static/js/main.2e0649f9.chunk.js",
+    "main.js.map": "/static/js/main.2e0649f9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c60b7f5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c60b7f5c.js.map",
+    "static/js/2.59dd36bc.chunk.js": "/static/js/2.59dd36bc.chunk.js",
+    "static/js/2.59dd36bc.chunk.js.map": "/static/js/2.59dd36bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f81de29e.chunk.css.map": "/static/css/main.f81de29e.chunk.css.map",
+    "static/js/2.59dd36bc.chunk.js.LICENSE.txt": "/static/js/2.59dd36bc.chunk.js.LICENSE.txt",
+    "static/media/body.c12e88f4.png": "/static/media/body.c12e88f4.png",
+    "static/media/canyon.f613c8eb.png": "/static/media/canyon.f613c8eb.png",
+    "static/media/cavern.f5d37c39.png": "/static/media/cavern.f5d37c39.png",
+    "static/media/celts.cde4b0a7.png": "/static/media/celts.cde4b0a7.png",
+    "static/media/dragon.faf8cb50.png": "/static/media/dragon.faf8cb50.png",
+    "static/media/excalibur.b75499ea.png": "/static/media/excalibur.b75499ea.png",
+    "static/media/icarus.17be8ca8.png": "/static/media/icarus.17be8ca8.png",
+    "static/media/kraken.33b7c9e9.png": "/static/media/kraken.33b7c9e9.png",
+    "static/media/logo.1fa2abd9.png": "/static/media/logo.1fa2abd9.png",
+    "static/media/mobs.35ece985.png": "/static/media/mobs.35ece985.png",
+    "static/media/index.css": "/static/media/mossbrick.a0108ad2.png",
+    "static/media/shrunk.e9380f88.png": "/static/media/shrunk.e9380f88.png",
+    "static/media/temple.7b4ebc08.png": "/static/media/temple.7b4ebc08.png",
+    "static/media/yeti.e3cff756.png": "/static/media/yeti.e3cff756.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c60b7f5c.js",
+    "static/js/2.59dd36bc.chunk.js",
+    "static/css/main.f81de29e.chunk.css",
+    "static/js/main.2e0649f9.chunk.js"
+  ]
+}

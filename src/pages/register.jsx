@@ -23,7 +23,7 @@ class Register extends React.Component {
         if (this.state.username) {
             if (this.state.password) {
                 if (this.state.country) {
-                    fetch('http://localhost:8000/api/users/', {
+                    fetch('/api/users/', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
@@ -36,7 +36,7 @@ class Register extends React.Component {
                             if (data.token) {
                                 localStorage.setItem('token', data.token)
                                 localStorage.setItem('user', jwt_decode(data.token)["username"])
-                                fetch('http://localhost:8000/api/user_id/', {
+                                fetch('/api/user_id/', {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ "username": localStorage.getItem('user') })
@@ -44,7 +44,7 @@ class Register extends React.Component {
                                     .then(response => response.json())
                                     .then(data => {
                                         localStorage.setItem('userId', data)
-                                        fetch('http://localhost:8000/api/create_player/', {
+                                        fetch('/api/create_player/', {
                                             method: 'POST',
                                             headers: { 'Content-Type': 'application/json' },
                                             body: JSON.stringify({

@@ -43,7 +43,7 @@ export default class Map extends Component {
     }
 
     getWorldRecords() {
-        fetch(`http://localhost:8000/api/world-records/${this.props.map}`)
+        fetch(`/api/world-records/${this.props.map}`)
             .then(res => res.json())
             .then(data => this.setState({ worldRecord: data[0] }))
     }

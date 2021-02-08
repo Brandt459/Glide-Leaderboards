@@ -15,7 +15,7 @@ export default class Leaderboard extends Component {
     }
 
     componentDidMount() {
-        fetch(`http://localhost:8000/api/map/${this.props.map}/`)
+        fetch(`/api/map/${this.props.map}/`)
             .then(response => response.json())
             .then(data => {
                 this.getRows(data)

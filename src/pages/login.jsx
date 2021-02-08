@@ -20,7 +20,7 @@ class Login extends React.Component {
         e.preventDefault()
         if (this.state.username) {
             if (this.state.password) {
-                fetch('http://localhost:8000/api/token-auth/', {
+                fetch('/api/token-auth/', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -34,7 +34,7 @@ class Login extends React.Component {
                             if (data.user.username) {
                                 localStorage.setItem('token', data.token)
                                 localStorage.setItem('user', data.user.username)
-                                fetch('http://localhost:8000/api/user_id/', {
+                                fetch('/api/user_id/', {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ "username": localStorage.getItem('user') })

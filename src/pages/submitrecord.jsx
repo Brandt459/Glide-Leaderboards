@@ -25,7 +25,7 @@ export default class submitpb extends Component {
         if (time) {
             if (map) {
                 if (re1.test(time) || re2.test(time)) {
-                    fetch('http://localhost:8000/api/submit_record/', {
+                    fetch('/api/submit_record/', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
