@@ -17,6 +17,7 @@ class Navbar extends React.Component {
         if (this.state.loggedIn) {
             this.setState({ username: localStorage.getItem('user') })
         }
+        window.location.reload(false)
     }
 
     handleLogout() {
@@ -27,7 +28,6 @@ class Navbar extends React.Component {
             loggedIn: false,
             username: null,
         })
-        window.location.reload(false);
     }
 
     render() {
