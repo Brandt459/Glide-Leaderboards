@@ -1,6 +1,11 @@
 django
+django-cors-headers
+django-rest-knox
+djangorestframework
+djangorestframework-jwt
 gunicorn
+knox
 whitenoise
-pytz
 dj_database_url
 django-countries
+rest_framework
