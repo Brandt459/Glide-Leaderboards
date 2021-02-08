@@ -8,4 +8,3 @@ knox
 whitenoise
 dj_database_url
 django-countries
-rest_framework
