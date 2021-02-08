@@ -1,0 +1,54 @@
+.leaderboard {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    background-color: #39FF14;
+}
+
+.row-active {
+    background-color: #FFFF00;
+}
+
+.rank {
+    width: 10%;
+    text-align: center;
+    background-color: #fe019a;
+    padding: 5px 0px;
+}
+
+.country-container-grid-element {
+    width: 10%;
+}
+
+.country-container {
+    width: 50%;
+    margin: auto;
+}
+
+.player {
+    width: 55%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.time {
+    width: 25%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.load-times {
+    width: 100%;
+    padding: 5px 0px;
+    background: turquoise;
+}
+
+.arrow-down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,100 @@
+.maps {
+    display: grid;
+    column-gap: 5vh;
+    row-gap: 5vh;
+    margin: 5vh;
+}
+
+.map-container {
+    background: gray;
+    opacity: 0.9;
+    border: 1px solid black;
+    box-shadow: 2px 2px 15px black;
+}
+
+.map {
+    margin: 5px;
+}
+
+.map-name {
+    text-align: center;
+    color: white;
+}
+
+.map-image-container {
+    width: 50%;
+    margin: auto;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+.world-record-video-container {
+    text-align: center;
+}
+
+.world-record-video {
+    width: 100%;
+    width: auto;
+}
+
+@media only screen and (min-width: 1361px) {
+    #cavern {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    #kraken {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    
+    #yeti {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+    
+    #dragon {
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1360px) {
+    #cavern {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    #kraken {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+    
+    #yeti {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+}
+
+@media only screen and (min-width: 756px) and (max-width: 1080px) {
+    #cavern {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    #kraken {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+}
+
+@media only screen and (max-width: 755px) {
+    #cavern {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+}

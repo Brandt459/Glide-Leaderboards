@@ -1,0 +1,44 @@
+.submit-record-container {
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.9;
+    background: turquoise;
+}
+
+.record-success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.record-error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.record-form-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.record-form-inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.record-form-inputs select, .record-form-inputs input {
+    width: 45%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.record-form-submit {
+    height: 50px;
+    width: 90%;
+    margin: 20px 5% 20px 5%;
+}

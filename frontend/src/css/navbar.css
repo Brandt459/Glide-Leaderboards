@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: purple;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 60px;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    height: 50px;
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#toggle-label, #toggle {
+    display: none;
+}
+
+#toggle-label {
+    line-height: 60px;
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+}
+
+@media only screen and (min-width: 1221px) {  
+    nav {
+        padding: 0 100px;
+    }    
+
+    .li {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1220px) {       
+    nav {
+        padding: 0 50px;
+    }
+    
+    .li {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1001px) {
+    nav {
+        padding: 0 50px;
+    }
+    
+    #toggle-label {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: block;
+        position: relative;
+        right: 5%;
+    }
+
+    nav ul li {
+        padding: 15px;
+        background: lightgray;
+        border: 1px solid black;
+        display: none;
+        opacity: 0.9;
+    }
+
+    #toggle:checked + ul li {
+        display: block;
+    }
+}
