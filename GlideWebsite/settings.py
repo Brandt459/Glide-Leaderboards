@@ -26,7 +26,7 @@ SECRET_KEY = 'xfbh92ew3b__8g_1g+2i=)jz#i=n1ss+k#&*rvj(*y$#35_wgp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['glidedb.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['glideleaderboards.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
