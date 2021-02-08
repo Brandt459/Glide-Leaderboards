@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f81de29e.chunk.css",
-    "main.js": "/static/js/main.2e0649f9.chunk.js",
-    "main.js.map": "/static/js/main.2e0649f9.chunk.js.map",
+    "main.css": "/static/css/main.a054cfa6.chunk.css",
+    "main.js": "/static/js/main.d906ded5.chunk.js",
+    "main.js.map": "/static/js/main.d906ded5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c60b7f5c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c60b7f5c.js.map",
     "static/js/2.59dd36bc.chunk.js": "/static/js/2.59dd36bc.chunk.js",
     "static/js/2.59dd36bc.chunk.js.map": "/static/js/2.59dd36bc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f81de29e.chunk.css.map": "/static/css/main.f81de29e.chunk.css.map",
+    "static/css/main.a054cfa6.chunk.css.map": "/static/css/main.a054cfa6.chunk.css.map",
     "static/js/2.59dd36bc.chunk.js.LICENSE.txt": "/static/js/2.59dd36bc.chunk.js.LICENSE.txt",
     "static/media/body.c12e88f4.png": "/static/media/body.c12e88f4.png",
     "static/media/canyon.f613c8eb.png": "/static/media/canyon.f613c8eb.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.c60b7f5c.js",
     "static/js/2.59dd36bc.chunk.js",
-    "static/css/main.f81de29e.chunk.css",
-    "static/js/main.2e0649f9.chunk.js"
+    "static/css/main.a054cfa6.chunk.css",
+    "static/js/main.d906ded5.chunk.js"
   ]
 }

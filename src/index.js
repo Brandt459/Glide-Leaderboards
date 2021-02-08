@@ -30,6 +30,7 @@ ReactDOM.render(
           {!loggedIn && <Redirect to="/" />}
         </Route>
         <Route exact path="/world-records" component={Worldrecords} />
+        <Route component={Home} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
