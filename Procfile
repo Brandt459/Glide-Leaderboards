@@ -1,1 +1,1 @@
-web: gunicorn VotingApp.wsgi --log-file -
+web: gunicorn GlideWebsite.wsgi --log-file -
