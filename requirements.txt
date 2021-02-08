@@ -8,3 +8,7 @@ knox
 whitenoise
 dj_database_url
 django-countries
+jinja2
+boto3
+psycopg2
+json5
