@@ -25,4 +25,5 @@ urlpatterns = [
     path('login/', TemplateView.as_view(template_name='index.html')),
     path('submit-record/', TemplateView.as_view(template_name='index.html')),
     path('world-records/', TemplateView.as_view(template_name='index.html')),
+    path('rankings/', TemplateView.as_view(template_name='index.html')),
 ]
