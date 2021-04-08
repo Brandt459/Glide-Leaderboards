@@ -42,14 +42,18 @@ class Navbar extends React.Component {
                 {username ?
                     <ul>
                         <li className="li">{username}</li>
+                        <Link className="li" to="/"><li>Leaderboards</li></Link>
                         <Link className="li" to="/world-records"><li>World Records</li></Link>
+                        <Link className="li" to="/rankings"><li>Rankings</li></Link>
                         <Link className="li" to="/submit-record"><li>Submit Record</li></Link>
                         <Link className="li"><li onClick={this.handleLogout}>Log out</li></Link>
                     </ul>
                     :
 
                     <ul>
+                        <Link className="li" to="/"><li>Leaderboards</li></Link>
                         <Link className="li" to="/world-records"><li>World Records</li></Link>
+                        <Link className="li" to="/rankings"><li>Rankings</li></Link>
                         <Link className="li" to="/register"><li>Register</li></Link>
                         <Link className="li" to="/login"><li>Log in</li></Link>
                     </ul>

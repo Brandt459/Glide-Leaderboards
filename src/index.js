@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Home from './pages/home'
 import Register from './pages/register'
 import Login from './pages/login'
+import Rankings from './pages/rankings'
 import Submitrecord from './pages/submitrecord'
 import Worldrecords from './pages/worldrecords'
 import {
@@ -30,6 +31,7 @@ ReactDOM.render(
           {!loggedIn && <Redirect to="/" />}
         </Route>
         <Route exact path="/world-records" component={Worldrecords} />
+        <Route exact path="/rankings" component={Rankings} />
         <Route component={Home} />
       </Switch>
     </BrowserRouter>

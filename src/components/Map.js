@@ -12,6 +12,7 @@ import excalibur from '../images/excalibur.png'
 import icarus from '../images/icarus.png'
 import celts from '../images/celts.png'
 import Leaderboard from './Leaderboard'
+import Worldrecord from './Worldrecord'
 
 
 export default class Map extends Component {
@@ -65,7 +66,7 @@ export default class Map extends Component {
                                 <Leaderboard map={map} />
                             }
                             {this.props.props.worldrecord &&
-                                <p className="world-record-video-container"><iframe className="world-record-video" src={record['video']} /></p>
+                                <Worldrecord map={map} />
                             }
                         </div>
                     </div>

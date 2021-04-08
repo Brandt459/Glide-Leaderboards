@@ -279,3 +279,8 @@ def createPlayer(request):
 @api_view(['GET'])
 def getWorldRecords(request, map):
     return Response(WorldRecord.objects.filter(map=map).values('map', 'player', 'time', 'video'))
+
+
+@api_view(['GET'])
+def rankings(request):
+    return Response(Player.objects.values('username', 'country', 'cavern', 'kraken', 'yeti', 'dragon', 'temple', 'shrunk', 'mobs', 'body', 'canyon', 'excalibur', 'icarus', 'celts', 'average').order_by(Length('average_ms').asc(), 'average_ms'))

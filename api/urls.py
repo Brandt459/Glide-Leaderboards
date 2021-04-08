@@ -9,5 +9,6 @@ urlpatterns = [
     path('user_id/', views.getUserId),
     path('token-auth/', obtain_jwt_token),
     path('create_player/', views.createPlayer),
-    path('world-records/<str:map>/', views.getWorldRecords)
+    path('world-records/<str:map>/', views.getWorldRecords),
+    path('rankings/', views.rankings)
 ]
