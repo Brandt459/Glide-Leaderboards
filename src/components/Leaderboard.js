@@ -44,13 +44,13 @@ export default class Leaderboard extends Component {
                         return (
                             <div className={`row ${row['username'] === localStorage.getItem('user') ? "row-active" : ""}`}>
                                 <p className="rank">{index + 1}</p>
-                                {row['country'] &&
+                                {/* {row['country'] &&
                                     <div className="country-container-grid-element">
                                         <div className="country-container">
                                             <img className="country" src={`https://www.countryflags.io/${row['country']}/shiny/24.png`} />
                                         </div>
                                     </div>
-                                }
+                                } */}
                                 <p className="player">{row['username']}</p>
                                 <p className="time">{row[map]}</p>
                             </div>
