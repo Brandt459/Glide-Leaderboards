@@ -22,11 +22,11 @@ export default class Rankings extends Component {
                 <div className="rankings">
                     <div className="row header">
                         <p className="rank">#</p>
-                        <div className="country-container-grid-element">
+                        {/* <div className="country-container-grid-element">
                             <div className="country-container">
                                 <p>Ctry</p>
                             </div>
-                        </div>
+                        </div> */}
                         <p className="player">Player</p>
                         <p className="map">Cavern</p>
                         <p className="map">Kraken</p>
