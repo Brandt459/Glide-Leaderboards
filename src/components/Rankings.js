@@ -46,13 +46,14 @@ export default class Rankings extends Component {
                         return (
                             <div className={`row ${row['username'] === localStorage.getItem('user') ? "row-active" : ""}`}>
                                 <p className="rank">{index + 1}</p>
+                                {/* countryflags.io not working currently
                                 {row['country'] &&
                                     <div className="country-container-grid-element">
                                         <div className="country-container">
                                             <img className="country" src={`https://www.countryflags.io/${row['country']}/shiny/24.png`} />
                                         </div>
                                     </div>
-                                }
+                                } */}
                                 <p className="player">{row['username']}</p>
                                 {row['cavern'] ?
                                     <p className="map">{row['cavern']}</p>
